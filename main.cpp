@@ -20,6 +20,7 @@ using namespace std;
  */
 int main(int argc, char** argv) {
    cout <<"le reservoir: "<<"L"<<endl;
+   cout <<"le reservoir est beau "<< endl; 
     return 0;
 }
 
