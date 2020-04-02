@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+
+<body>
+
+    <form>
+
+        <h1>Commande Ponctuelle</h1>
+
+        <p>
+            <br>
+            <input type="radio" name="Camera_Infra_Rouge" >
+
+            <label for="MeasureIR">Camera Infra Rouge : </label>
+                <select name="temperature_IR" id="IR">
+
+                    <option value="T°Système" selected>T°Système</option>
+
+                    <option value="T°Processeur">T°Processeur</option>
+
+                    <option value="T°Batterie">T°Batterie</option>
+
+                    <option value="T°Camera">T°Camera</option>
+
+                </select>
+            <br>
+            <!--<input type="radio" name="1_photo" id="Measure" value="MeasurePhoto">
+            <label for="Measurephoto"> Appareil Photo: </label>
+                <select name="nationalite" id="nationalite">
+
+                    <option value="FR" selected>Measure_1</option>
+
+                    <option value="BE">Measure_2</option>
+
+                    <option value="SUI">Measure_3</option>
+
+                    <option value="XX">Measure_4</option>
+
+                </select>-->
+            <br>
+            <input type="radio" name="Magnétometre" id="Measure" value="MeasureMagneto">
+            <label for="MeasureMagneto"> Magnetometre </label>
+            </br>
+        </p>
+
+
+        <input type="submit" value="Envoyer">
+
+        <input type="reset" value="Annuler">
+
+    </form>
+
+
+    <script src="../js/cours.js"></script>
+
+</body>
+</html>
